@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(226, 226, 226); */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+/* body{
+  background-color: rgb(134, 134, 134);
+}
+#nav{
+  background-color: rgb(216, 216, 216);
+
+} */
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 5px solid #e2dddd; /* Light grey */
+  border-top: 5px solid #000000; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}

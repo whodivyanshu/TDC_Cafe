@@ -1,0 +1,19 @@
+.container{
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
